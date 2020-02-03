@@ -1,0 +1,93 @@
+[2019-05-05T15:37:43.759] [INFO] default - Recieved request to a_get_admin_login 
+[2019-05-05T15:37:50.565] [INFO] default - Recieved request to a_post_admin_home
+[2019-05-05T15:37:50.676] [INFO] default - Calling DB to validate admin credentials for admin ID: admin1@mm.com
+[2019-05-05T15:37:50.697] [INFO] default - Recieved result from DB confirming the credentials are valid for ADMIN ID :admin1@mm.com
+[2019-05-05T15:38:00.056] [INFO] default - Recieved request to d_get_dietician_registration for ADMIN ID :admin1@mm.com
+[2019-05-05T15:38:15.651] [INFO] default - Recieved request to d_post_regdietsuccesful for admin ID: admin1@mm.com
+[2019-05-05T15:38:15.652] [INFO] default - Calling DB to insert dietician details for admin ID: admin1@mm.com
+[2019-05-05T15:38:15.659] [INFO] default - Inserted to DB dietician details for admin ID and dietician: admin1@mm.com dietician100
+[2019-05-05T15:38:17.113] [INFO] default - Recieved request to c_get_admin_logout for User_Id:admin1@mm.com
+[2019-05-05T15:38:17.113] [INFO] default - Admin Logged Out Succesfully
+[2019-05-05T15:38:21.100] [INFO] default - Sending Restaurant Login Page
+[2019-05-05T15:38:26.363] [INFO] default - Received request to func_r_check_login_info
+[2019-05-05T15:38:26.363] [INFO] default - Calling MySQL DB to validate the credentials for restaurat_user_id: indian@gmail.com
+[2019-05-05T15:38:26.370] [INFO] default - Recieved result from db Confirming the credentials are valid for restaurant_email_id:indian@gmail.com
+[2019-05-05T15:38:26.370] [INFO] default - Sent Response For Successful Login of restaurant_id = 102
+[2019-05-05T15:38:28.822] [INFO] default - Received request to To get Restaurant Menu Page for restaurant_id = 102
+[2019-05-05T15:38:28.823] [INFO] default - Calling MySQL DB to get menu  for restaurant_id: 102
+[2019-05-05T15:38:28.835] [INFO] default - View menu information received from DB for restaurant_id = 102
+[2019-05-05T15:38:28.835] [INFO] default - View menu information received from DB for restaurant_id = 102
+[2019-05-05T15:38:28.835] [INFO] default - Sent Restaurant Menu Page with items for restaurant_id = 102
+[2019-05-05T15:38:30.960] [INFO] default - Calling MySQL DB to get menu  for restaurant_id: 102
+[2019-05-05T15:38:30.975] [INFO] default - Update menu information received from DB for restaurant_id = 102
+[2019-05-05T15:38:30.978] [INFO] default - Sent Restaurant Menu Page with items for restaurant_id = 102
+[2019-05-05T15:38:33.974] [INFO] default - Calling MySQL DB to get menu  for restaurant_id: 102
+[2019-05-05T15:38:33.984] [INFO] default - Update menu information received from DB for restaurant_id = 102
+[2019-05-05T15:38:33.987] [INFO] default - Sent Restaurant Menu Page with items for restaurant_id = 102
+[2019-05-05T15:38:38.107] [INFO] default - Calling MySQL DB to get menu  for restaurant_id: 102
+[2019-05-05T15:38:38.119] [INFO] default - Update menu information received from DB for restaurant_id = 102
+[2019-05-05T15:38:38.122] [INFO] default - Sent Restaurant Menu Page with items for restaurant_id = 102
+[2019-05-05T15:38:41.047] [INFO] default - Received request to r_view_tomos_orders for RESTAURNT ID: 102
+[2019-05-05T15:38:41.051] [INFO] default - Successfully selected next days orders for restaurant ID: 102
+[2019-05-05T15:38:43.687] [INFO] default - Received request to r_get_home to get Restaurant Home Page for restaurant_id = 102
+[2019-05-05T15:38:43.688] [INFO] default - Sent Restaurant Home Page r_home for restaurant_id = 102
+[2019-05-05T15:38:46.161] [INFO] default - Received request to r_view_report for RESTAURANT_ID: 102
+[2019-05-05T15:38:54.217] [INFO] default - Received request to r_generated_report for RESTAURANT_ID: 102
+[2019-05-05T15:38:54.225] [INFO] default - Generation of report for selected dates for restauant ID: 102
+[2019-05-05T15:38:56.260] [INFO] default - Received request to To get Logout Page for restaurant_id = 102
+[2019-05-05T15:38:56.260] [INFO] default - Logout successful for restaurant_id = 102
+[2019-05-05T15:38:56.260] [INFO] default - Sending Restaurant Login Page
+[2019-05-05T15:39:03.587] [INFO] default - Recieved request to c_get_customer_login
+[2019-05-05T15:39:10.744] [INFO] default - Recieved request to c_post_customer_home 
+[2019-05-05T15:39:10.745] [INFO] default - Calling MySQL DB to validate the credentials
+[2019-05-05T15:39:10.754] [INFO] default - Recieved result from db Confirming the credentials are valid for User_Id:Sara@gmail.com
+[2019-05-05T15:39:12.365] [INFO] default - Recieved request to c_get_check_menu for User_Id:1001
+[2019-05-05T15:39:12.366] [INFO] default - Calling DB to to get personalized customer menu for User_Id:1001
+[2019-05-05T15:39:12.391] [INFO] default - Recieved result from db and sending response to checkmenu for User_Id:1001
+[2019-05-05T15:39:19.050] [INFO] default - Recieved request to c_order_confirmation for User_Id:1001
+[2019-05-05T15:39:19.051] [INFO] default - Calling DB to insert the selected order for User_Id:1001
+[2019-05-05T15:39:19.056] [INFO] default - Recieved result from db and sending response to orderconfirmation for User_Id:1001
+[2019-05-05T15:39:19.056] [INFO] default - Already placed a breakfast order for User_Id:1001
+[2019-05-05T15:39:24.991] [INFO] default - Recieved request to c_get_customer_home for User_Id:1001
+[2019-05-05T15:39:34.963] [INFO] default - Recieved request to c_get_customer_logout for User_Id:1001
+[2019-05-05T15:39:34.965] [INFO] default - Customer Logged Out Succesfully
+[2019-05-05T15:39:40.527] [INFO] default - Recieved request to c_post_customer_home 
+[2019-05-05T15:39:40.528] [INFO] default - Calling MySQL DB to validate the credentials
+[2019-05-05T15:39:40.533] [INFO] default - Recieved result from db Confirming the credentials are valid for User_Id:Stephan@gmail.com
+[2019-05-05T15:39:49.259] [INFO] default - Recieved request to c_get_check_menu for User_Id:1008
+[2019-05-05T15:39:49.260] [INFO] default - Calling DB to to get personalized customer menu for User_Id:1008
+[2019-05-05T15:39:49.287] [INFO] default - Recieved result from db and sending response to checkmenu for User_Id:1008
+[2019-05-05T15:39:51.841] [INFO] default - Recieved request to c_get_diet_plan for User_Id:1008
+[2019-05-05T15:39:51.841] [INFO] default - Calling DB to get the current diet plan for User_Id:1008
+[2019-05-05T15:39:51.849] [INFO] default - Recieved result from db and sending response to viewdietplan for User_Id:1008
+[2019-05-05T15:39:55.836] [INFO] default - Recieved request to c_get_item_rating for User_Id:1008
+[2019-05-05T15:39:55.837] [INFO] default - Calling DB to to display previous orders for User_Id:1008
+[2019-05-05T15:39:55.840] [INFO] default - Recieved result from db and sending response to itemrating for User_Id:1008
+[2019-05-05T15:39:57.241] [INFO] default - Recieved request to c_get_diet_history for User_Id:1008
+[2019-05-05T15:39:57.241] [INFO] default - Calling DB to view diet history for User_Id:1008
+[2019-05-05T15:39:57.246] [INFO] default - Recieved result from db and sending response to viewdiethistory for User_Id:1008
+[2019-05-05T15:39:58.450] [INFO] default - Recieved request to c_get_dietician_rating for User_Id:1008
+[2019-05-05T15:39:58.451] [INFO] default - Calling DB to get dietician list for User_Id:1008
+[2019-05-05T15:39:58.457] [INFO] default - Recieved result from db and sending response to dieticianrating for User_Id:1008
+[2019-05-05T15:40:02.656] [INFO] default - Recieved request to c_post_dietician_rating_confirmation for User_Id:1008
+[2019-05-05T15:40:02.657] [INFO] default - Calling DB to insert the dietician rating for User_Id:1008
+[2019-05-05T15:40:02.668] [INFO] default - Recieved result from db and sending response to dieticianratingconfirmation for User_Id:1008
+[2019-05-05T15:40:04.192] [INFO] default - Recieved request to c_get_customer_logout for User_Id:1008
+[2019-05-05T15:40:04.193] [INFO] default - Customer Logged Out Succesfully
+[2019-05-05T15:40:12.579] [INFO] default - Recieved request to c_get_customer_registration
+[2019-05-05T15:40:43.764] [INFO] default - Recieved request to c_post_customer_login
+[2019-05-05T15:40:43.765] [INFO] default - Calling DB to insert customer details
+[2019-05-05T15:40:43.771] [INFO] default - Inserted to DB customer registration details for customeremail: customer99@gmail.com
+[2019-05-05T15:40:51.410] [INFO] default - Recieved request to c_post_customer_home 
+[2019-05-05T15:40:51.412] [INFO] default - Calling MySQL DB to validate the credentials
+[2019-05-05T15:40:51.417] [ERROR] default - Invalid Credentials entered for User_Id:customer99@gmail.com
+[2019-05-05T15:40:53.872] [INFO] default - Recieved request to c_post_customer_home 
+[2019-05-05T15:40:53.873] [INFO] default - Calling MySQL DB to validate the credentials
+[2019-05-05T15:40:53.879] [INFO] default - Recieved result from db Confirming the credentials are valid for User_Id:customer99@gmail.com
+[2019-05-05T15:40:55.657] [INFO] default - Calling MySQL DB to list available mealplans for customer ID: 50001
+[2019-05-05T15:40:55.657] [INFO] default - Request received for c_d_dieticianNo for customer_ID: 50001
+[2019-05-05T15:40:55.663] [INFO] default - Successfully listed list of mealplans for customer ID: 50001
+[2019-05-05T15:41:09.093] [INFO] default - Received request to d_yes_details for CUSTOMER ID: 50001
+[2019-05-05T15:41:09.094] [INFO] default - Calling MySQL DB to insert details of customers not enrolled with any dieticians for customer ID: 50001
+[2019-05-05T15:41:09.102] [INFO] default - Successfully inserted customer not enrolled dietician details to DB for customer ID: 50001
+[2019-05-05T15:41:10.554] [INFO] default - Recieved request to c_get_customer_login
